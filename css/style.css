@@ -1,0 +1,116 @@
+body{
+	font-family: sans-serif;
+	background-image:url(../images/background.jpg);
+	background-size:100% 100%;
+	background-attachment:fixed;
+    margin: 0px;	
+}
+header{
+	    background-color: #333;
+	padding:12px
+}
+h1,h2{
+	    color: grey;
+}
+.error{
+	color:red;
+	font-size:14px
+}
+footer{
+	background-color: #333;
+    padding: 12px;
+    color: white;
+}
+.center{
+	text-align:center
+}
+.container{
+	width:1150px;
+	margin:0px auto;
+}
+.main{
+	overflow:hidden;
+	
+}
+.leftsec{
+	width:50%;
+	float:left
+}
+.rightsec{
+	width:50%;
+	float:left
+}
+.logo{
+	height: 39px;
+}
+.main_content{
+	background-color:white;
+	padding:12px
+}
+.mainmenu ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+}
+
+.mainmenu li {
+    float: left;
+}
+.full{
+	width:100%;
+	    height: 282px;
+}
+.product_border{
+	border: 1px solid #80808021;
+    padding: 9px;
+    box-shadow: 0px 4px 12px 6px #8080804d;
+    border-radius: 2px;
+}
+.full_shoes{
+	width: 100%;
+    height: 217px;
+}
+.product_title{
+	text-align:center;
+	font-weight:bold;
+	margin-top:20px
+}
+.home_sec{
+	width:30%;
+	float:left;
+	padding: 12px;
+}
+.mainmenu li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+.mt1{
+	margin-top:1em
+}
+.btn{
+	border: none;
+    padding: 10px;
+    width: 50%;
+    background-color: #2196F3;
+    color: white;
+}
+.textfeild{
+	width: 96%;
+    padding: 7px;
+}
+.feild{
+	width: 96%;
+    padding: 7px;
+}
+li a:hover:not(.active) {
+    background-color: #111;
+}
+
+.active {
+    background-color: #4CAF50;
+}
